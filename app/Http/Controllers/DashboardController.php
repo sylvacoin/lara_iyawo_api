@@ -159,7 +159,11 @@ class DashboardController extends Controller
 //            ->groupByRaw('MONTHNAME(created_at)')->get();
 
         $monthly_trans = DB::table(DB::Raw("(SELECT '01' AS mname, 'January' as mtitle
-          UNION ALL SELECT '02','Febrauary'
+          UNION ALL SELECT 'qs
+          giqs
+
+
+          qs02','Febrauary'
           UNION ALL SELECT '03','March'
           UNION ALL SELECT '04','April'
           UNION ALL SELECT '05','May'
