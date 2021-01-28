@@ -111,8 +111,8 @@ return [
     */
 
     'hosts' => [
-        'https://api.iyawosavings.com' => [
-            'deploy_path' => '/home/dimcksji/api.iyawosavings.com/',
+        '198.54.115.206' => [
+            'deploy_path' => '/home/dimcksji/source',
             'user' => 'dimcksji',
             'strategy' => 'firstdeploy',
             'port' => 21098, // Port provided by cPanel ssh
